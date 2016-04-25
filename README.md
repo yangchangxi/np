@@ -1,3 +1,3 @@
-# NP
-> Prototype of Next Carrier Platform.
-`飕飕Wi-Fi Next平台`
+# NextPlatform
+> Prototype of SOSOWIFI NEXT Platform.
+`SOSOWIFI NEXT平台`
