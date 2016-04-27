@@ -1,8 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>微信公众号</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1" />
+    <title>微信公众号</title>
 
 <style type="text/css">
 *{
@@ -10,26 +12,29 @@
      margin:0px;
  }
 #big{ 
-     width:404px; 
+     width:100%; 
+	 max-width:480px;
 	 height:auto; 
 	 overflow:hidden; 
 	 margin:auto; 
 	 background:#EFEFF5; 
-	 margin-top:20px;
+	 
 	 }
 .first{ 
-     width:404px; 
+    
+	 width:100%; 
 	 height:125px;  
 	 background:#EFEFF5; 
 	 margin:auto;
 	 }
 .pic{ 
+     width:30%;
      margin-top:20px; 
 	 margin-left:20px; 
 	 float:left;
 	 }
 .text{ 
-     width:270px; 
+     width:60%;  
 	 height:50px; 
 	 float:right; 
 	 margin-top:34px; 
@@ -50,24 +55,24 @@
 	 }
 
 .second{ 
-     width:404px; 
+     width:100%; 
 	 height:200px; 
 	 background:#FFF; 
 	 margin:auto; 
 	 font-family:微软雅黑;
 	 }
 .text_three{ 
-     width:90px; 
+     width:80px;; 
      font-weight:bold; 
 	 font-size:20px;   
 	 margin-top:10px; 
-	 margin-left:20px; 
+	 margin-left:10px; 
 	 float:left; 
 	 }
 .text_four{ 
-     width:200px; 
+     width:60%; 
 	 float:left; 
-	 margin-left:45px; 
+	 margin-left:19px; 
 	 margin-top:10px; 
 	 color:#999;  
 	 font-size:15px;   
@@ -82,10 +87,10 @@
 	 font-family:微软雅黑;
 	 }
 .text_five{
-	 width:212px; 
+	 width:180px;
 	 float:left; 
-	 margin-left:14px; 
-	 margin-top:13px; 
+	 margin-left:10px; 
+	 margin-top:14px; 
 	 color:#999;  
 	 font-size:15px;
 	 
@@ -109,8 +114,8 @@
 	 line-height:45px; 
 	 margin-left:20px; 
 	 }
-#round {
-	 padding:10px; width:353px; height:59px;
+.round {
+	 padding:10px; width:260px; height:59px;
 	 border: 0px solid #dedede;
 	 -moz-border-radius: 15px;      
 	 -webkit-border-radius: 15px;  
@@ -121,10 +126,12 @@
 	 text-align:center;
 	 line-height:59px;
 	 font-weight:bold;
-	 color:#FFF;         
+	 color:#FFF;
+	 margin-left:30px;
+	      
 }
 .five{ 
-     width:404px; 
+     width:100%; 
 	 margin:auto; 
 	 margin-top:25px; 
 	 height:90px;  
@@ -132,25 +139,21 @@
 	 }
 .pic1{ 
      float:left; 
-	 margin-top:13px; 
-	 width:25px;
+	 margin-top:17px; 
+	 width:12px;
 	 margin-left:7px;
 	 }
 .jt{
-	width:20px;
+	width:5px;
 	height:20px;
 	float:left;
-	margin-left:5px;
-	margin-top:13px;
+	margin-left:7px;
+	margin-top:18px;
 	
 	
 	}
 </style>
 </head>
-
-
-
-
 <body>
 
   <div id="big"><!--总体布局-->
@@ -183,16 +186,15 @@
     
     <div class="three"><!--three-->
       <div class="text_three">账号主体</div>
-      <div class="pic1"><img src="images/icon_verify_success.2x2a26bd.png" style="width:20px; height:20px;"/></div>
+      <div class="pic1"><img src="images/icon_verify_success.2x2a26bd.png" style="width:12px; height:12px;"/></div>
       <div class="text_five">天津浩洋环宇科技有限公司</div>
-      <div class="jt"><img src="images/jt.png" style="width:20px; height:20px;"/></div>
+      <div class="jt"><img src="images/jt.png" style="width:12px; height:12px;"/></div>
     </div><!--three-->
     
-   
-    
     <div class="five">
-     <div id="round">关注</div>
-    </div>
+    	<input type="button" value="关注" class="round"/>
+<!--     <div id="round">关注</div>
+-->    </div>
   
   </div>
 </body>
