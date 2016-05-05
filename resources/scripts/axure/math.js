@@ -288,6 +288,7 @@
     $ax.public.fn.l2 = function (x, y) { return Math.sqrt(x * x + y * y); }
 
     $ax.public.fn.convertToSingleImage = function (jobj) {
+        if(!jobj[0]) return;
 
         var widgetId = jobj[0].id;
         var object = $obj(widgetId);
